@@ -1,0 +1,6 @@
+{
+  "test_setup": "Device is powered on, connected to a stable internet connection, and logged into a valid app store account. Ensure sufficient storage space is available for downloading multiple applications.",
+  "test_instructions": "1. Open the app store on the device.\n2. Navigate to the 'Top Charts' or 'Most Downloaded' section.\n3. Identify the top 5 most downloaded apps.\n4. Download and install each of the 5 apps.\n5. Once installation is complete, open each app one by one.\n6. Observe the behavior during app launch.",
+  "expected_results": "All 5 apps should download and install successfully without errors. Each app should open normally without crashes, freezes, or error messages during launch.",
+  "comments": "If any app fails to install or open, capture logs, screenshots, and error messages for debugging. Ensure network stability throughout the test."
+}

@@ -1,0 +1,4 @@
+1. Normalize input to handle messages and structure json test instructions
+2. refactor main.py to be user friendly
+3. Make the agent learn from its mistakes
+4. add UI memory (store previous hierarchies)
