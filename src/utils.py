@@ -41,3 +41,19 @@ def fetch_json(file_path: str) -> dict:
     with json_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     return data
+
+def prepare_json_to_prompt(test_data: dict) -> str:
+    """
+    Prepares a JSON object to be included in a prompt by converting it to a string.
+    
+    Args:
+        test_data (dict): The test data to prepare.
+    """
+    user_message = f"""
+    {test_data['test_instructions']}
+
+    Setup: {test_data['test_setup']}
+    Expected Results: {test_data['expected_results']}
+    Comments: {test_data['comments']}
+    """
+    return user_message
