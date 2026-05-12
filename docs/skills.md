@@ -123,3 +123,8 @@ graph LR
 
 Utiliza um Critic Loop, no qual um segundo agente valida se cada afirmação da síntese possui uma fonte correspondente nos resultados da busca.
 
+# Fontes
+
+- https://developers.openai.com/api/docs/guides/tools-skills
+- https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+- https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/

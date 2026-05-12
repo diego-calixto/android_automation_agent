@@ -104,8 +104,8 @@ Allowed types:
 
 ### IMPORTANT
 
--   ❌ DO NOT include validation steps inside `steps`
--   ✅ All validations MUST be placed in the `validations` array
+-   DO NOT include validation steps inside `steps`
+-   All validations MUST be placed in the `validations` array
 
 ------------------------------------------------------------------------
 
@@ -133,12 +133,12 @@ should not be present - text_match → text must match expected
 
 ## ANTI-PATTERNS (FORBIDDEN)
 
--   ❌ No tool calls
--   ❌ No UiAutomator references
--   ❌ No ADB commands
--   ❌ No execution logic
--   ❌ No retry logic
--   ❌ No selectors or XPath
+-   No tool calls
+-   No UiAutomator references
+-   No ADB commands
+-   No execution logic
+-   No retry logic
+-   No selectors or XPath
 
 ------------------------------------------------------------------------
 
